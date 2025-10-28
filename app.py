@@ -16,13 +16,21 @@ st.set_page_config(page_title="E-Commerce Product Performance", page_icon="📈"
 
 # small visual polish
 st.markdown(
-    "<style>
-    .stApp {background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);} 
-    .card {background: white; padding: 12px; border-radius:12px; box-shadow: 0 2px 6px rgba(0,0,0,0.06);} 
-    .kpi {font-size:20px; color:#111;}
-    .kpi-sub {font-size:12px; color:#666}
-    </style>",
-    unsafe_allow_html=True,
+    """
+    <style>
+    .main {
+        background-color: #0E1117;
+        color: white;
+        font-family: "Poppins", sans-serif;
+    }
+    .stMetric {
+        background-color: #262730;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
 )
 
 # ===============================
@@ -262,4 +270,5 @@ st.markdown('---')
 st.caption('Tip: gunakan sidebar untuk memfilter kategori dan rentang tanggal. Gunakan Top N untuk menyesuaikan jumlah produk teratas yang ditampilkan.')
 
 # End of file
+
 
