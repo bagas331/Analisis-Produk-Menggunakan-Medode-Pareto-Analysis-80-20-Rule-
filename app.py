@@ -130,7 +130,7 @@ show_raw = st.sidebar.checkbox("Tampilkan data mentah (preview)", value=False)
 # ===============================
 # 4. KPIs
 # ===============================
-st.title("📈 E-Commerce Product Performance Dashboard")
+st.title("E-Commerce Product Performance Dashboard")
 st.markdown("**Ringkasan kinerja & insight cepat — interaktif**")
 
 col1, col2, col3, col4 = st.columns([1.5,1.2,1.2,1])
@@ -270,5 +270,6 @@ st.markdown('---')
 st.caption('Tip: gunakan sidebar untuk memfilter kategori dan rentang tanggal. Gunakan Top N untuk menyesuaikan jumlah produk teratas yang ditampilkan.')
 
 # End of file
+
 
 
