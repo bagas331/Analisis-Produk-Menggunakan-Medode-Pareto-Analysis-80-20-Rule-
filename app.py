@@ -12,7 +12,7 @@ from datetime import datetime
 # ===============================
 # 0. Page config & small CSS to prettify
 # ===============================
-st.set_page_config(page_title="E-Commerce Product Performance", page_icon="📈", layout="wide")
+st.set_page_config(page_title="E-Commerce Product Performance", page_icon="#", layout="wide")
 
 # small visual polish
 st.markdown(
@@ -270,6 +270,7 @@ st.markdown('---')
 st.caption('Tip: gunakan sidebar untuk memfilter kategori dan rentang tanggal. Gunakan Top N untuk menyesuaikan jumlah produk teratas yang ditampilkan.')
 
 # End of file
+
 
 
 
